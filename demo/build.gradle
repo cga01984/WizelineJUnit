@@ -25,6 +25,10 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
+tasks.named('test'){
+	useJUnitPlatform()
+}
+
 sonarqube {
 	properties {
 		property "sonar.projectKey", "cga01984_cga01984"
